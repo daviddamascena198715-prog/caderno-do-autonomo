@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout titulo="Aviso Legal" descricao="Aviso legal e disclaimer editorial do Caderno do Autônomo.">
+  <article class="pagina">
+    <h1>Aviso Legal</h1>
+    <p>
+      O conteúdo publicado no Caderno do Autônomo tem finalidade exclusivamente educativa e
+      informativa. Não constitui recomendação de investimento, consultoria financeira,
+      contábil, tributária ou jurídica individualizada.
+    </p>
+    <p>
+      Decisões financeiras devem levar em conta a situação pessoal de cada leitor. Recomendamos
+      consultar um contador, planejador financeiro certificado ou advogado antes de tomar
+      decisões com base no que é publicado aqui.
+    </p>
+    <p>
+      Valores, taxas, alíquotas e regras mencionados nos artigos podem mudar após a publicação.
+      Sempre confira a informação vigente nas fontes oficiais citadas em cada artigo antes de
+      agir com base nela.
+    </p>
+    <p>
+      Este site pode conter links de afiliados. Isso significa que podemos receber uma comissão
+      caso você contrate um produto ou serviço através de um desses links, sem custo adicional
+      para você. Isso não influencia nossa avaliação editorial.
+    </p>
+  </article>
+  <style>
+    .pagina { max-width: 62ch; margin: 2.5rem auto 4rem; }
+    .pagina p { margin: 1rem 0; color: var(--ink-soft); }
+  </style>
+</BaseLayout>
