@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const nomes: Record<string, string> = {
+  'cartao-de-credito': 'Cartão de Crédito',
+  'emprestimo-financiamento': 'Empréstimo e Financiamento',
+  'mei-autonomo': 'MEI e Autônomo',
+  'investimentos-iniciantes': 'Investimentos para Iniciantes',
+};
+
+export async function getStaticPaths() {
+  const categorias = Object.keys({
+    'cartao-de-credito': 0,
+    'emprestimo-financiamento': 0,
+    'mei-autonomo': 0,
+    'investimentos-iniciantes': 0,
+  });
+  return categorias.map((categoria) => ({ params: { categoria } }));
+}
+
+const { categoria } = Astro.params;
+const todos = await getCollection('artigos');
+const artigos = todos.filter((a) => a.data.categoria === categoria);
+const nome = nomes[categoria as string] ?? categoria;
+---
+<BaseLayout titulo={nome} descricao={`Artigos sobre ${nome} para autônomos e freelancers.`}>
+  <h1 class="cat-titulo">{nome}</h1>
+  <ul class="lista">
+    {artigos.map((a) => (
+      <li>
+        <a href={`/artigo/${a.slug}`}>{a.data.titulo}</a>
+        <p>{a.data.resumo}</p>
+      </li>
+    ))}
+    {artigos.length === 0 && <p class="vazio">Ainda não há artigos publicados nesta categoria.</p>}
+  </ul>
+
+  <style>
+    .cat-titulo { margin: 2rem 0 1.5rem; font-size: 1.9rem; }
+    .lista { list-style: none; padding: 0; }
+    .lista li { padding: 1.2rem 0; border-bottom: 1px dashed var(--line); }
+    .lista li a { font-size: 1.15rem; font-weight: 500; }
+    .lista li p { margin: 0.3rem 0 0; color: var(--ink-soft); }
+    .vazio { color: var(--ink-soft); }
+  </style>
+</BaseLayout>
