@@ -10,8 +10,6 @@ fontes:
   - "Portal do Empreendedor - MEI"
 ---
 
-[EDITAR — conteúdo de exemplo, revisar valores e regras vigentes antes de publicar]
-
 Muita gente que abre um MEI pensa que, por já pagar o DAS todo mês, está livre de qualquer
 outra obrigação. Não é bem assim: o **DAS é o imposto da empresa (o CNPJ do MEI)**, e a
 **Declaração de Imposto de Renda Pessoa Física é sobre você**, a pessoa física por trás do CNPJ.
