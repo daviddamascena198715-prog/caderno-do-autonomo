@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://SEU-DOMINIO-AQUI.com.br/sitemap-index.xml
+Sitemap: https://cadernodoautonomo.com/sitemap-index.xml
