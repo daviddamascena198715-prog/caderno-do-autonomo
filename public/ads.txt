@@ -1,3 +1,1 @@
-# Depois de ser aprovado no Google AdSense, troque pub-0000000000000000
-# pelo seu Publisher ID real (Anúncios > Visão geral > Configuração do site no painel do AdSense).
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-2838794127917125, DIRECT, f08c47fec0942fa0
