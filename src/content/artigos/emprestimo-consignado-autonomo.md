@@ -9,8 +9,6 @@ fontes:
   - "Sebrae - Linhas de crédito para MEI e autônomos"
 ---
 
-[EDITAR — conteúdo de exemplo, revisar antes de publicar]
-
 O empréstimo consignado tradicional — aquele com desconto direto na folha de pagamento — é
 exclusivo de quem tem vínculo formal (CLT, servidor público ou aposentado/pensionista do INSS).
 Quem trabalha por conta própria não se encaixa nessa modalidade, mas isso não significa que as
