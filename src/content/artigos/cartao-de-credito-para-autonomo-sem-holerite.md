@@ -8,8 +8,6 @@ fontes:
   - "Banco Central do Brasil - Cadastro Positivo"
 ---
 
-[EDITAR — conteúdo de exemplo, revisar antes de publicar]
-
 Quem trabalha por conta própria esbarra num problema comum na hora de pedir cartão de crédito:
 não tem holerite. Isso não significa que é impossível ser aprovado — significa que você precisa
 comprovar renda de outro jeito.
