@@ -9,8 +9,6 @@ fontes:
   - "B3 - Educação Financeira"
 ---
 
-[EDITAR — conteúdo de exemplo, revisar antes de publicar]
-
 Quem tem salário fixo sabe exatamente quanto pode guardar todo mês. Quem vive de trabalho
 autônomo não tem essa previsibilidade — e é justamente por isso que a ordem das prioridades
 precisa ser um pouco diferente antes de pensar em investir.
