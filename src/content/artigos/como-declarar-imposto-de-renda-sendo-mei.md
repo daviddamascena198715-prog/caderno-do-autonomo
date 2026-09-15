@@ -7,9 +7,12 @@ dataAtualizacao: 2026-09-14
 autor: "Equipe Editorial"
 destaque: true
 fontes:
-  - "Receita Federal - Regras do Imposto de Renda 2026"
-  - "Lei Complementar 123/2006, art. 18-A - limite de faturamento do MEI"
-  - "Resolução CGSN nº 140/2018, art. 109 - DASN-SIMEI"
+  - nome: "Receita Federal - Regras do Imposto de Renda 2026"
+    url: "https://www.gov.br/receitafederal/pt-br"
+  - nome: "Lei Complementar 123/2006, art. 18-A - limite de faturamento do MEI"
+    url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm"
+  - nome: "Resolução CGSN nº 140/2018 - DASN-SIMEI"
+    url: "https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/simples-nacional"
 ---
 
 Muita gente que abre um MEI pensa que, por já pagar o DAS todo mês, está livre de qualquer
