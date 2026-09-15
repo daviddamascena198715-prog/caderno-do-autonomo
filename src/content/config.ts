@@ -14,7 +14,7 @@ const artigos = defineCollection({
     dataPublicacao: z.date(),
     dataAtualizacao: z.date().optional(),
     autor: z.string().default('Equipe Editorial'),
-    fontes: z.array(z.string()).default([]),
+    fontes: z.array(z.union([z.string(), z.object({ nome: z.string(), url: z.string() })])).default([]),
     destaque: z.boolean().default(false),
   }),
 });
