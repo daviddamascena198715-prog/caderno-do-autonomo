@@ -5,10 +5,10 @@ categoria: "cartao-de-credito"
 dataPublicacao: 2026-09-14
 autor: "Equipe Editorial"
 fontes:
-  - "Lei nº 14.690/2023 (Lei do Desenrola Brasil)"
-  - "Banco Central do Brasil - Resolução CMN nº 5.112/2023 (portabilidade do saldo devedor de cartão de crédito)"
-  - "Banco Central do Brasil - Resolução CMN nº 4.655/2018 (limites de crédito em conta de pagamento pós-paga)"
-  - "Banco Central do Brasil - Resolução nº 4.549/2017 (crédito rotativo e parcelamento de fatura)"
+  - nome: "Lei nº 14.690/2023 (Lei do Desenrola Brasil)"
+    url: "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14690.htm"
+  - nome: "Banco Central do Brasil - Resoluções sobre cartão de crédito e rotativo"
+    url: "https://www.bcb.gov.br"
 ---
 
 Quem vive de renda variável costuma usar o cartão de crédito como amortecedor nos meses mais
