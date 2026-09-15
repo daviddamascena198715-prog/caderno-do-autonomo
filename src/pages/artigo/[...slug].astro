@@ -46,7 +46,15 @@ const jsonLd = {
       <aside class="fontes">
         <h2>Fontes</h2>
         <ul>
-          {artigo.data.fontes.map((f) => <li>{f}</li>)}
+          {artigo.data.fontes.map((f) => (
+            <li>
+              {typeof f === 'string' ? (
+                f
+              ) : (
+                <a href={f.url} target="_blank" rel="noopener noreferrer">{f.nome}</a>
+              )}
+            </li>
+          ))}
         </ul>
       </aside>
     )}
@@ -63,5 +71,6 @@ const jsonLd = {
     .artigo-corpo :global(a) { color: var(--teal); }
     .fontes { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px dashed var(--line); font-size: 0.88rem; color: var(--ink-soft); }
     .fontes h2 { font-size: 1rem; margin-bottom: 0.5rem; }
+    .fontes a { color: var(--teal); text-decoration: underline; }
   </style>
 </BaseLayout>
