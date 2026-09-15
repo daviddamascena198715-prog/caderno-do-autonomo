@@ -6,10 +6,14 @@ dataPublicacao: 2026-02-03
 dataAtualizacao: 2026-09-15
 autor: "Equipe Editorial"
 fontes:
-  - "Lei Complementar nº 166/2019 - Cadastro Positivo automático"
-  - "Lei nº 12.414/2011 - Lei do Cadastro Positivo"
-  - "Serasa - Motivos comuns de negativa de crédito"
-  - "Banco Central do Brasil - Registrato"
+  - nome: "Lei Complementar nº 166/2019 - Cadastro Positivo automático"
+    url: "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp166.htm"
+  - nome: "Lei nº 12.414/2011 - Lei do Cadastro Positivo"
+    url: "https://legis.senado.leg.br/norma/585411"
+  - nome: "Serasa - Motivos comuns de negativa de crédito"
+    url: "https://www.serasa.com.br/credito/blog/credito-negado/"
+  - nome: "Banco Central do Brasil - Registrato"
+    url: "https://www.bcb.gov.br"
 ---
 
 Quem trabalha por conta própria esbarra num problema comum na hora de pedir cartão de crédito:
