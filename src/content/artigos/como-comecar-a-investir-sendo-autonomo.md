@@ -6,8 +6,10 @@ dataPublicacao: 2026-03-17
 dataAtualizacao: 2026-09-14
 autor: "Equipe Editorial"
 fontes:
-  - "Banco Central do Brasil - Comitê de Política Monetária (Copom)"
-  - "Comissão de Valores Mobiliários (CVM) - Portal do Investidor"
+  - nome: "Banco Central do Brasil - Comitê de Política Monetária (Copom)"
+    url: "https://www.bcb.gov.br/controleinflacao/copom"
+  - nome: "Comissão de Valores Mobiliários (CVM) - Portal do Investidor"
+    url: "https://www.investidor.gov.br"
 ---
 
 Quem tem salário fixo sabe exatamente quanto pode guardar todo mês. Quem vive de trabalho
