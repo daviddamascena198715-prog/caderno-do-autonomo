@@ -5,8 +5,10 @@ categoria: "emprestimo-financiamento"
 dataPublicacao: 2026-03-10
 autor: "Equipe Editorial"
 fontes:
-  - "Banco Central do Brasil - Registrato e Cadastro Positivo"
-  - "Sebrae - Linhas de crédito para MEI e autônomos"
+  - nome: "Banco Central do Brasil - Registrato e Cadastro Positivo"
+    url: "https://www.bcb.gov.br"
+  - nome: "Sebrae - Linhas de crédito para MEI e autônomos"
+    url: "https://www.sebrae.com.br"
 ---
 
 O empréstimo consignado tradicional — aquele com desconto direto na folha de pagamento — é
