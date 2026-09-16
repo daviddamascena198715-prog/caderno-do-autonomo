@@ -5,10 +5,14 @@ categoria: "emprestimo-financiamento"
 dataPublicacao: 2026-09-15
 autor: "Equipe Editorial"
 fontes:
-  - "Banco Central do Brasil - Instrução Normativa BCB nº 766/2026 (amplia para 80 dias o prazo de contestação do Mecanismo Especial de Devolução - MED - do Pix)"
-  - "Banco Central do Brasil - Consulta de instituições autorizadas a funcionar (bcb.gov.br)"
-  - "Agência Brasil - Nova regra do Pix amplia prazo para contestar golpe (setembro de 2026)"
-  - "InfoMoney - Novo golpe de empréstimos pede pagamentos via Pix: entenda a fraude e evite o prejuízo"
+  - nome: "Banco Central do Brasil - Instrução Normativa BCB nº 766/2026 (MED do Pix)"
+    url: "https://www.bcb.gov.br"
+  - nome: "Banco Central do Brasil - Consulta de instituições autorizadas a funcionar"
+    url: "https://www.bcb.gov.br/estabilidadefinanceira/relacaoinstituicoes"
+  - nome: "Agência Brasil - Nova regra do Pix amplia prazo para contestar golpe"
+    url: "https://agenciabrasil.ebc.com.br"
+  - nome: "InfoMoney - Novo golpe de empréstimos pede pagamentos via Pix"
+    url: "https://www.infomoney.com.br"
 ---
 
 Quem vive de renda variável é quem mais recorre a empréstimo rápido nos meses de aperto — e é
