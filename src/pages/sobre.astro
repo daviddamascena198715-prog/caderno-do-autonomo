@@ -1,24 +1,44 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout titulo="Sobre" descricao="Sobre o Caderno do Autônomo.">
+<BaseLayout titulo="Sobre" descricao="Sobre o Caderno do Autônomo, quem mantém o site e como o conteúdo é produzido.">
   <article class="pagina">
     <h1>Sobre o Caderno do Autônomo</h1>
+
     <p>
-      O Caderno do Autônomo é mantido por David Araújo, com curadoria e revisão editorial
-      apoiada por ferramentas de pesquisa e automação. O objetivo é traduzir MEI, cartão de
-      crédito, empréstimo e primeiros investimentos numa linguagem direta, sem jargão de banco,
-      pensada especificamente para quem trabalha por conta própria no Brasil.
+      O Caderno do Autônomo é mantido por <strong>David Araújo</strong>, responsável pela
+      curadoria e pela linha editorial do site. Meu papel aqui não é o de especialista
+      financeiro, contador ou advogado — é o de organizar, pesquisar e revisar informação
+      pública de fontes oficiais (Receita Federal, Banco Central, Sebrae, PGFN, entre outras)
+      para que autônomos e MEIs cheguem mais rápido à resposta que precisam, sem jargão de
+      banco.
+    </p>
+
+    <h2>Como o conteúdo é produzido</h2>
+    <p>
+      Cada artigo passa por um processo de pesquisa que prioriza fontes oficiais e institucionais
+      — leis, resoluções do Banco Central, editais da Receita Federal e da PGFN, e canais de
+      imprensa confiáveis quando o tema envolve uma notícia recente. As fontes usadas em cada
+      artigo ficam listadas no rodapé, com link direto para o documento original, para que você
+      possa conferir por conta própria.
     </p>
     <p>
-      O conteúdo publicado aqui é educativo e informativo — não substitui orientação de um
-      contador, advogado ou planejador financeiro certificado para a sua situação específica.
-      Cada artigo traz as fontes oficiais consultadas, e o objetivo é manter o conteúdo atualizado
-      conforme as regras mudam.
+      Parte da produção e atualização do conteúdo conta com apoio de ferramentas de pesquisa e
+      automação, sempre sob a mesma linha editorial: citar fonte real, evitar inventar número ou
+      regra, e atualizar o artigo quando uma informação muda.
+    </p>
+
+    <h2>O que este site não é</h2>
+    <p>
+      O conteúdo publicado aqui é educativo e informativo — não é consultoria financeira,
+      contábil ou jurídica personalizada. Antes de tomar uma decisão importante (pedir um
+      empréstimo, declarar imposto, investir), consulte um contador, advogado ou planejador
+      financeiro certificado para avaliar a sua situação específica.
     </p>
   </article>
   <style>
-    .pagina { max-width: 60ch; margin: 2.5rem auto 4rem; }
+    .pagina { max-width: 62ch; margin: 2.5rem auto 4rem; }
     .pagina p { margin: 1rem 0; color: var(--ink-soft); }
+    .pagina h2 { font-size: 1.2rem; margin-top: 2rem; }
   </style>
 </BaseLayout>
